@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     @stack('after-style')
     <title>@yield('title')</title>
+
+    <link rel="icon" href="{{ asset('images/eth.png') }}" type="image/png">
+
+    
 </head>
 
 <body class="bg-belibang-black font-poppins text-white">
